@@ -1211,8 +1211,8 @@ a.boton:hover{
 ============================================================*/
 
 .navbar {
-    border-bottom: 8px solid #1461ff;
-     background-color: #1461ff; 
+    /* border-bottom: 8px solid #1461ff; */
+     /* background-color: #1461ff;  */
     color: #fff;
     text-decoration-color: #fff;
  
