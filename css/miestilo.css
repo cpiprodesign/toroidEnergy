@@ -6,7 +6,7 @@
 
   }
   .opacity-img{
-    /* opacity: 0.6; */
+    opacity: 0.8;
     filter: alpha(opacity=60);
     
     }
@@ -136,6 +136,23 @@ hr{
 .cardscli .cardcli > .contenido-texto-cardcli p{
   font-weight: 300;
   padding-top: 5px;
+}
+
+/* contactar  */
+.bg-contactar{
+  background:  #f6f6f6;
+}
+.bg-contactar ul li a{
+  text-decoration: none;
+  pointer-events: none;
+cursor: default;
+}
+.choose-area {
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 1px 5px 0 rgb(0 0 0 / 12%);
+  border-radius: 4px;
+  background: #ffffff;
 }
 /* footer */
 footer{
