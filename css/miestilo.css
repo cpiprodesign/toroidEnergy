@@ -67,6 +67,24 @@ hr{
   /* background-image: url(../img/energia-1905x580.jpg); */
   /* color: rgb(255, 255, 255); */
 }
+
+/* animacion cont */
+@keyframes aparecer{
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform:translateY(0);
+  }
+}
+.ocultar {
+  opacity: 0;
+}
+.animar {
+  animation: aparecer 1.3s;
+}
 .wraper-servicios{
 display: flex;
 
