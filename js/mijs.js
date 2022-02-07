@@ -23,3 +23,23 @@ addEventListener('DOMContentLoaded',()=>{
     }
     animarContadores()
 })
+//intersectionObserver
+const  mostrarContadores = elementos=>{
+    elementos.forEach(elemento => {
+        if(elemento.isIntersecting){
+            elemento.target.classList.add('animar')
+            elemento.target.classList.remove('ocultar')
+            setTimeout(animarContadores, 300)
+            
+        }
+        
+    });
+
+}
+const observer = new IntersectionObserver(mostrarContadores,{
+    threshold: 0.75 //0-1
+})
+const elementosHTML = document.querySelectorAll('contador')
+elementosHTML.forEach(elementoHTML=>{
+    observer.observe(elementoHTML)
+})
