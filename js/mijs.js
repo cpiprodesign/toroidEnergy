@@ -1,6 +1,6 @@
 addEventListener('DOMContentLoaded',()=>{
     const contadores=document.querySelectorAll('.contador_cantidad')
-    const velocidad=100
+    const velocidad=1000
 
     const animarContadores =()=>{
         for (const contador of contadores){
