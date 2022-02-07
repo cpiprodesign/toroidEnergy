@@ -65,7 +65,7 @@ hr{
     -50deg
     ,#58c3ff 0,#004de6 40%,#003bb1 100%);
   /* background-image: url(../img/energia-1905x580.jpg); */
-  color: #fff;
+  /* color: rgb(255, 255, 255); */
 }
 .wraper-servicios{
 display: flex;
@@ -282,4 +282,8 @@ footer ul li a{
   -moz-transition: all 0.3s ease 0s;
   -ms-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
+}
+/* mobile firt */
+@media screen and  (max-width: 320px) and (min-width: 0px) {
+  
 }
