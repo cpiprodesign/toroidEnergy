@@ -1,13 +1,23 @@
+.hero{
+  min-height: 100vh;
+}
+.elemento-separador{
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #6341fc;
+  width: 40px;
+  /* color: #1461ff; */
+}
 
   .titulo-color-carousel{
-      color: rgb(231, 236, 216);
+      color: rgb(255, 255, 255);
      
       /* background-color: transparent; */
 
   }
   .opacity-img{
-    opacity: 0.8;
-    filter: alpha(opacity=60);
+    opacity: 0.9;
+    filter: alpha(opacity=90);
     
     }
 .carousel-control-prev{
@@ -48,6 +58,25 @@ hr{
   text-align: center;
   margin-bottom: 30px;
   /* text-shadow: 2px 2px 2px #1439b1; */
+}
+/* cont */
+.bg-imgs{
+  background: linear-gradient(
+    -50deg
+    ,#58c3ff 0,#004de6 40%,#003bb1 100%);
+  /* background-image: url(../img/energia-1905x580.jpg); */
+  color: #fff;
+}
+.wraper-servicios{
+display: flex;
+
+align-items: center;
+justify-content: center;
+}
+.iconn{
+  font-size: 3rem;
+  text-align: center;
+  color: #85a7e7;
 }
 /* proyecto */
 .portafolio{
