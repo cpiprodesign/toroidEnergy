@@ -55,6 +55,8 @@ hr{
 }
 .pacifico {
   font-family: 'Pacifico', cursive;
+  text-shadow: 0px 4px 3px rgb(0 0 0 / 20%);
+  font-size: 25px;
 }
  .titulo {
   color: #003bb1;

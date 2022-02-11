@@ -1660,4 +1660,6 @@ a.boton:hover{
     font-size: 30px;
     margin-left: 80px;
     font-family: 'Pacifico', cursive;
+    text-shadow: 0px 4px 3px rgb(0 0 0 / 20%);
+    
 }
